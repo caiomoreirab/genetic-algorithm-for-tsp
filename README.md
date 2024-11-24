@@ -1,6 +1,6 @@
 # **Traveling Salesman Problem (TSP) Solver using Genetic Algorithm**
 
-Este projeto implementa um solucionador para o **Problema do Caixeiro Viajante (TSP)\*\* utilizando um **Algoritmo Genético (GA)**. Ele permite carregar instâncias do problema em formato `.tsp\` e encontrar uma rota otimizada para minimizar a distância total percorrida.
+Este projeto implementa um solucionador para o **Problema do Caixeiro Viajante (TSP) ** utilizando um **Algoritmo Genético (GA)**. Ele permite carregar instâncias do problema em formato `.tsp` e encontrar uma rota otimizada para minimizar a distância total percorrida.
 
 ## 🚀 **Funcionalidades**
 - Suporte a arquivos `.tsp` no formato **TSPLIB**.
@@ -9,10 +9,10 @@ Este projeto implementa um solucionador para o **Problema do Caixeiro Viajante (
 - Resultados detalhados, incluindo a melhor rota encontrada e sua distância total.
 
 ## 🛠️ **Tecnologias Utilizadas**
-- \*\*Python\*\* (versão 3.8+)
-- [\*\*Mealpy\*\*](https://github.com/thieu1995/mealpy): Biblioteca de algoritmos de otimização.
-- [\*\*SciPy\*\*](https://scipy.org/): Para cálculo de distâncias euclidianas.
-- [\*\*NumPy\*\*](https://numpy.org/): Para manipulação de arrays.
+- **Python** (versão 3.8+)
+- [**Mealpy**](https://github.com/thieu1995/mealpy): Biblioteca de algoritmos de otimização.
+- [**SciPy**](https://scipy.org/): Para cálculo de distâncias euclidianas.
+- [**NumPy**](https://numpy.org/): Para manipulação de arrays.
 
 ## 📂 \**Estrutura do Projeto**
 ```
