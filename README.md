@@ -1,6 +1,6 @@
 # **Traveling Salesman Problem (TSP) Solver using Genetic Algorithm**
 
-Este projeto implementa um solucionador para o **Problema do Caixeiro Viajante (TSP) ** utilizando um **Algoritmo Genético (GA)**. Ele permite carregar instâncias do problema em formato `.tsp` e encontrar uma rota otimizada para minimizar a distância total percorrida.
+Este projeto implementa um solucionador para o **Problema do Caixeiro Viajante (TSP)** utilizando um **Algoritmo Genético (GA)**. Ele permite carregar instâncias do problema em formato `.tsp` e encontrar uma rota otimizada para minimizar a distância total percorrida.
 
 ## 🚀 **Funcionalidades**
 - Suporte a arquivos `.tsp` no formato **TSPLIB**.
@@ -14,7 +14,7 @@ Este projeto implementa um solucionador para o **Problema do Caixeiro Viajante (
 - [**SciPy**](https://scipy.org/): Para cálculo de distâncias euclidianas.
 - [**NumPy**](https://numpy.org/): Para manipulação de arrays.
 
-## 📂 \**Estrutura do Projeto**
+## 📂 **Estrutura do Projeto**
 ```
 .
 ├── main.py             # Script principal para execução do GA
@@ -78,8 +78,8 @@ Certifique-se de que o arquivo contém os trechos `NODE_COORD_SECTION` e `EOF`.
 ## 🛠️ **Personalização**
 
 ### **Operador de Mutação**
-A mutação padrão foi substituída por uma mutação do tipo \*\*Scramble\*\*.
-Para usar outra estratégia, modifique a função \`scramble_mutation\`.
+A mutação padrão foi substituída por uma mutação do tipo **Scramble**.
+Para usar outra estratégia, modifique a função `scramble_mutation`.
 
 ### **Critérios de Parada**
 Atualmente, o algoritmo para após 10.000 épocas. Para outros critérios, modifique o parâmetro `epoch` ou implemente condições de convergência.
